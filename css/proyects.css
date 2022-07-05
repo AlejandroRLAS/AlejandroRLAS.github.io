@@ -1,0 +1,187 @@
+body{
+    font-family: 'Alfa Slab One', cursive;
+
+
+
+    
+
+} 
+.cubo{
+    
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.up{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    float: right;
+    transition: 200ms;
+    font-size: 23px;
+
+}
+
+.up:hover{
+    font-size: 27px;
+    
+}
+
+.cubo-2{
+    position: relative;
+    left: 50%;
+    border-radius: 30px;
+    background-color: hsla(0, 0%, 100%, 0);
+    width: 50%;
+    height: 30px;
+}
+
+
+
+.cubo-3{
+    background-image: linear-gradient(to right, #60f38c 0%, #fe40a8 100%);
+    -webkit-box-shadow: inset 0px -15px 93px -38px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px -15px 93px -38px rgba(0,0,0,0.75);
+box-shadow: inset 0px -15px 93px -38px rgba(0,0,0,0.75);
+    position: relative;
+    height: 400px;
+    width: 100%;
+    top:-40px ;
+
+}
+
+.LOGO-1{
+    position: absolute;
+    left: 30px;
+    top:30px;
+    
+
+}
+
+.clip-1{
+    margin: 20px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 400px;
+    width: 90%;
+    padding: 20px;
+    position: relative;
+    top:50px;
+    align-items: center;
+    animation-name: images-animation;
+    animation-duration: 5s;
+}
+
+@keyframes images-animation {
+    0%{top:-300px;}
+}
+
+.image-1{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 75%;
+    top: 60px;
+    width: 55%;
+    border-radius: 20px;
+
+}
+
+.text{
+    
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 65%;
+    height: 400px;
+    width:35%;
+    top: 30px;
+
+}
+
+.video-design{
+    
+    border: 20px;
+    
+}
+
+.text-AlleStudio{
+    color: rgb(255, 255, 255);
+    font-size: 105px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    animation-name: AlleStudio;
+    animation-duration: 2s;
+    
+
+}
+
+@keyframes AlleStudio {
+    0%{font-size: 100px;}
+    100%{font-size: 105px;}
+}
+
+.design-text{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+}
+
+.flex-box{
+    position: relative;
+}
+
+.decoration-of-licencia{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position:relative;
+    top: 200px;
+
+}
+
+
+.decoration-of-licencia p{
+    color: white;
+    margin: 20px;
+    position: relative;
+    top: 15px;
+    
+}
+
+.text-content-1{
+    
+    height: 300px;
+    display: flex;
+  flex-direction: column;
+
+
+}
+
+.conetent-1{
+    display: flow-root;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content-videos{
+    border-radius: 15px;
+    width:560px;
+     height:315px;
+     
+}
+
+
+.content-design-1{
+    background-color: black;
+    height: 600px;
+
+
+
+
+
+}
