@@ -1,0 +1,313 @@
+body{
+    font-family: 'Alfa Slab One', cursive;
+
+
+
+    
+
+} 
+.cubo{
+    
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.up{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    float: right;
+    transition: 200ms;
+    font-size: 23px;
+
+}
+
+.up:hover{
+    font-size: 27px;
+    
+}
+
+.cubo-2{
+    position: relative;
+    left: 50%;
+    border-radius: 30px;
+    background-color: hsla(0, 0%, 100%, 0);
+    width: 50%;
+    height: 30px;
+}
+
+@media (max-width:480px){
+    .cubo-2{
+        position: relative;
+        left: 0%;
+        border-radius: 30px;
+        background-color: hsla(0, 0%, 100%, 0);
+        width: 100%;
+        height: 20px;
+        top: 10px;
+    }
+
+    .up{
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        float: right;
+        transition: 200ms;
+        font-size:9px;
+    }
+
+    .up:hover{
+        font-size: 9px;
+        
+    }
+}
+
+
+
+
+
+
+.cubo-3{
+    background-image: linear-gradient(to right, #60f38c 0%, #fe40a8 100%);
+    -webkit-box-shadow: inset 0px -15px 93px -38px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px -15px 93px -38px rgba(0,0,0,0.75);
+box-shadow: inset 0px -15px 93px -38px rgba(0,0,0,0.75);
+    position: relative;
+    height: 400px;
+    width: 100%;
+    top:-40px ;
+
+}
+
+@media(max-width:480px){
+    .cubo-3{
+        height:250px;
+        top: auto;
+
+    }
+}
+
+
+
+
+.LOGO-1{
+    position: absolute;
+    left: 30px;
+    top:30px;
+    
+
+}
+
+.clip-1{
+    margin: 20px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 400px;
+    width: 90%;
+    padding: 20px;
+    position: relative;
+    top:50px;
+    align-items: center;
+    animation-name: images-animation;
+    animation-duration: 5s;
+}
+
+@keyframes images-animation {
+    0%{top:-300px;}
+}
+
+.image-1{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 75%;
+    top: 10px;
+    width: 55%;
+    border-radius: 20px;
+
+}
+
+.text{
+    
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 65%;
+    height: 400px;
+    width:35%;
+    top: 30px;
+
+}
+
+.video-design{
+    
+    border: 20px;
+    
+}
+
+.text-AlleStudio{
+    color: rgb(255, 255, 255);
+    font-size: 105px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    animation-name: AlleStudio;
+    animation-duration: 2s;
+    
+
+}
+@media(max-width:480px){
+    .text-AlleStudio{
+        font-size:60px;
+        top: 90px;
+        
+        animation-duration: 0s;
+    }
+
+}
+
+@keyframes AlleStudio {
+    0%{font-size: 100px;}
+    100%{font-size: 105px;}
+}
+
+.design-text{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+}
+
+.flex-box{
+    position: relative;
+}
+
+.decoration-of-licencia{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position:relative;
+    top: 1000px;
+
+}
+
+
+.decoration-of-licencia p{
+    color: white;
+    margin: 20px;
+    position: relative;
+    top: 15px;
+    
+}
+
+.text-content-1{
+    
+    height: 300px;
+    display: flex;
+  flex-direction: column;
+
+
+}
+
+.conetent-1{
+    height: 40%;
+    width: 100%;
+    align-items: center;
+
+}
+
+.content-videos{
+    border-radius: 1%;
+    width:40%;
+    display: flexbox;
+     background-color: black;
+     
+}
+
+
+.content-design-1{
+    background-color: rgba(0, 0, 0, 0);
+    height: 600px;
+    padding: 20px;
+
+
+}
+
+.text-moviment-content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+.content-2{
+
+    display: flow-root;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 600px;
+
+}
+
+.text-content-2{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.text-moviment-content-2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    right: 300px;
+
+    
+}
+
+.App-design{
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    height: 200px;
+    width: 350px;
+}
+
+.content-design-2{
+     display: flow-root;
+    justify-content: center;
+    align-items: center;
+}
+
+.conetent-3{
+    display: flow-root;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 600px;
+}
+
+.text-moviment-content-3{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    right: 300px;
+}
+
+.text-content-3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-design-2{
+    padding: 30px;
+    height: 500px;
+    border-radius: 50px;
+}
